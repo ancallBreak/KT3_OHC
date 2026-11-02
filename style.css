@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    background-color: #333333;
+}
+
+/* header {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+#head ul {
+    display: flex;
+}
+
+#head li {
+    margin: 20px;
+    list-style: none;
+}
+
+#head a {
+    text-decoration: none;
+    color: violet;
+}
+
+#head a:hover {
+    color: blueviolet;
+} */
+
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/1f33596e29405333bdbf2bb0/hgghgh-min1.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.mContent {
+    display: flex;
+    width: 900px;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.content {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: white;
+}
+
+.content h2 {
+    color: #f1c50e;
+    font-size: 30px;
+}
+
+.content a {
+    color: black;
+    text-decoration: none;
+    border: 2px solid #f1c50e;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+.content a:hover {
+    border-color: black;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+footer {
+    background-color: #333333;
+    height: 100px;
+}
+
+@media (max-width: 1055px) {
+    .content {
+        width: 230px;
+        height: 270px;
+    }
+}
+
+@media (max-width: 835px) {
+    .mContent {
+        width: 600px;
+    }
+
+    .content {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 655px) {
+    .mContent {
+        width: 600px;
+    }
+
+    .content {
+        width: 200px;
+        height: 270px;
+    }
+}
+
+@media (max-width:455px) {
+    .mContent {
+        width: 300px;
+    }
+
+    .content {
+        width: 270px;
+        height: 260px;
+    }
+
+    main h1 {
+        font-size: 45px;
+    }
+}
